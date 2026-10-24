@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=400">
+<title>Our Work — ONOME</title>
+<meta name="description" content="ONOME — selected work by service.">
+<meta name="theme-color" content="#171717">
+<link rel="icon" href="favicon.png">
+<link rel="preload" href="SpaceGrotesk.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="frame">
+  <header>
+    <a class="logo" href="index.html"><img src="logo.png" alt="ONOME" width="124" height="24"></a>
+    <a class="back" href="services.html">← Services</a>
+  </header>
+  <main>
+    <div class="label" id="gNum">02 / Services</div>
+    <h1 class="page-title" id="gTitle">Our Work</h1>
+    <p class="lead" id="gDesc"></p>
+    <div class="gallery" id="gList"></div>
+    <a class="g-next" id="gNext" href="#"><span class="label">Next service</span><b id="gNextName"></b><span class="g-next-go">→</span></a>
+    <div class="copy">© 2026 ONOME · YOURS. OURS. EVERYWHERE.</div>
+  </main>
+  <div class="lightbox" id="lb" role="dialog" aria-label="Photo"><button class="lb-close" id="lbClose" aria-label="Close">✕</button><img id="lbImg" alt=""><p id="lbCap"></p></div>
+  <div class="actions">
+    <a class="btn btn-call" href="tel:+201272633269">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg>
+      Contact Us
+    </a>
+    <a class="btn btn-wa" href="https://wa.me/201272633269?text=Hi%20ONOME%2C%20I%27d%20like%20to%20know%20more%20about%20your%20services" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.15l-.3-.18-3 .78.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.25-.12-1.47-.72-1.7-.8s-.39-.12-.56.12-.64.8-.78.97-.29.18-.54.06a6.7 6.7 0 0 1-1.97-1.22 7.4 7.4 0 0 1-1.37-1.7c-.14-.25 0-.38.11-.5l.37-.43c.12-.15.16-.25.25-.42a.46.46 0 0 0 0-.43c-.06-.12-.56-1.34-.76-1.84s-.4-.42-.56-.42h-.48a.92.92 0 0 0-.66.31 2.8 2.8 0 0 0-.87 2.07 4.8 4.8 0 0 0 1 2.56 11 11 0 0 0 4.2 3.7c1.56.68 2.18.73 2.96.62a2.5 2.5 0 0 0 1.66-1.17 2 2 0 0 0 .14-1.17c-.06-.1-.23-.16-.48-.28z"/></svg>
+      WhatsApp
+    </a>
+  </div>
+</div>
+<script>
+var DATA=[{"slug": "social", "title": "Social Media Marketing", "desc": "Content, campaigns and shoots that turn scrolls into customers.", "items": [{"img": "g-pastacup.jpg", "cap": "Campaign Shoot · PastaCup", "w": 760, "h": 950, "ref": false}, {"img": "g-camera.jpg", "cap": "Content Production · Behind the Scenes", "w": 760, "h": 1013, "ref": false}, {"img": "g-atom.jpg", "cap": "Brand & Social Design · Studio Atom", "w": 760, "h": 506, "ref": false}]}, {"slug": "gates", "title": "Exhibition Booths & Gates", "desc": "Booths, arches and entrance gates built to stop people in their tracks.", "items": [{"img": "g-sczone1.jpg", "cap": "Exhibition Booth · SCZONE", "w": 760, "h": 1013, "ref": false}, {"img": "g-sczone2.jpg", "cap": "Booth Branding · SCZONE", "w": 760, "h": 1013, "ref": false}, {"img": "g-arch.jpg", "cap": "Welcome Arch · Elsewedy Electric", "w": 760, "h": 1351, "ref": false}, {"img": "g-thimar.jpg", "cap": "Branded Entrance Gate · Thimar", "w": 760, "h": 1013, "ref": false}, {"img": "g-ee-backdrop.jpg", "cap": "Event Backdrop · Egypt Energy", "w": 760, "h": 1013, "ref": false}]}, {"slug": "signage", "title": "Signage", "desc": "Shopfronts, hanging signs and wayfinding that read from across the street.", "items": [{"img": "g-sirage-shop.jpg", "cap": "Shopfront Signage · Sirage", "w": 760, "h": 760, "ref": false}, {"img": "g-neotimber.jpg", "cap": "Hanging Sign · NeoTimber", "w": 760, "h": 475, "ref": false}, {"img": "g-firex.jpg", "cap": "Wayfinding Standee · FIREX", "w": 760, "h": 1013, "ref": false}, {"img": "g-room-sign.jpg", "cap": "Indoor Room Sign", "w": 760, "h": 853, "ref": false}]}, {"slug": "posm", "title": "POSM", "desc": "In-store displays, roll-ups and standees that move product off the shelf.", "items": [{"img": "g-oniro1.jpg", "cap": "Gondola Display · ONIRO bix", "w": 760, "h": 1351, "ref": false}, {"img": "g-oniro2.jpg", "cap": "Floor Display · ONIRO bix", "w": 760, "h": 1351, "ref": false}, {"img": "g-eps.jpg", "cap": "Roll-up · EPS Seminar", "w": 760, "h": 1013, "ref": false}, {"img": "g-key.jpg", "cap": "Roll-up · KEY Energy Expo", "w": 760, "h": 1013, "ref": false}, {"img": "g-if1.jpg", "cap": "Standees · Institut Français", "w": 760, "h": 1013, "ref": false}, {"img": "g-if2.jpg", "cap": "Standee · Institut Français", "w": 760, "h": 1010, "ref": false}, {"img": "g-citycentre.jpg", "cap": "Character Cutout · City Centre", "w": 760, "h": 1351, "ref": false}, {"img": "g-equaliv.jpg", "cap": "Activation Cubes & Table", "w": 760, "h": 1132, "ref": true}]}, {"slug": "events", "title": "Event Branding", "desc": "Stages, 3D letters, photo booths and every branded touchpoint in the room.", "items": [{"img": "g-ee-letters.jpg", "cap": "3D Letters & Backdrop · Egypt Energy", "w": 760, "h": 1013, "ref": false}, {"img": "g-photobooth.jpg", "cap": "Photo Booth · Elsewedy Electric", "w": 760, "h": 1013, "ref": false}, {"img": "g-prints.jpg", "cap": "Branded Photo Prints · Elsewedy", "w": 760, "h": 1351, "ref": false}, {"img": "g-booth.jpg", "cap": "Interactive Photo Booth", "w": 516, "h": 735, "ref": false}, {"img": "g-garnier.jpg", "cap": "Sampling Activation", "w": 760, "h": 950, "ref": true}]}, {"slug": "outdoor", "title": "Outdoor", "desc": "High-visibility pieces built for the street, the entrance and the open air.", "items": [{"img": "g-thimar.jpg", "cap": "Entrance Gate · Thimar", "w": 760, "h": 1013, "ref": false}, {"img": "g-arch.jpg", "cap": "Outdoor Arch · Elsewedy Electric", "w": 760, "h": 1351, "ref": false}, {"img": "g-sirage-shop.jpg", "cap": "Shopfront · Sirage", "w": 760, "h": 760, "ref": false}, {"img": "g-neotimber.jpg", "cap": "Hanging Sign · NeoTimber", "w": 760, "h": 475, "ref": false}, {"img": "g-if1.jpg", "cap": "Outdoor Standees · Institut Français", "w": 760, "h": 1013, "ref": false}]}, {"slug": "giveaways", "title": "Giveaways", "desc": "Branded gifts and merchandise people actually keep.", "items": [{"img": "g-erse.jpg", "cap": "Branded Desk Flags · erse", "w": 760, "h": 1013, "ref": false}, {"img": "g-prints.jpg", "cap": "Photo Print Keepsakes · Elsewedy", "w": 760, "h": 1351, "ref": false}, {"img": "g-aperol.jpg", "cap": "Summer Merch Kit", "w": 640, "h": 800, "ref": true}]}, {"slug": "displays", "title": "Acrylic & Wooden Displays", "desc": "Display walls, stands and acrylic pieces made to show products at their best.", "items": [{"img": "g-acrylic-mission.jpg", "cap": "Acrylic Mission & Vision Wall Signs", "w": 450, "h": 384, "ref": false}, {"img": "g-sirage-wall.jpg", "cap": "Product Display Wall · Sirage", "w": 760, "h": 428, "ref": false}, {"img": "g-wood-stand.jpg", "cap": "Wooden Display Stand", "w": 760, "h": 895, "ref": false}, {"img": "g-acrylic-wall.jpg", "cap": "Acrylic Donor Wall", "w": 760, "h": 553, "ref": false}, {"img": "g-acrylic-panels.jpg", "cap": "Acrylic Info Panels", "w": 760, "h": 369, "ref": false}, {"img": "g-brown.jpg", "cap": "Display Podiums", "w": 760, "h": 1154, "ref": true}]}, {"slug": "branding", "title": "Creative & Branding", "desc": "Identities, campaigns and brand systems — from logo to shelf.", "items": [{"img": "g-atom.jpg", "cap": "Brand Identity · Studio Atom", "w": 760, "h": 506, "ref": false}, {"img": "g-sirage-shop.jpg", "cap": "Retail Branding · Sirage", "w": 760, "h": 760, "ref": false}, {"img": "g-oniro1.jpg", "cap": "Packaging on Shelf · ONIRO bix", "w": 760, "h": 1351, "ref": false}, {"img": "g-pastacup.jpg", "cap": "Campaign Visuals · PastaCup", "w": 760, "h": 950, "ref": false}]}];
+(function(){
+  function render(){
+    var slug=(location.hash||'').slice(1)||DATA[0].slug, i=0;
+    DATA.forEach(function(s,j){if(s.slug===slug)i=j});
+    var s=DATA[i], n=DATA[(i+1)%DATA.length];
+    document.title=s.title+' — ONOME'; document.body.setAttribute('data-service',s.title);
+    document.getElementById('gNum').textContent=(i<9?'0':'')+(i+1)+' / '+s.title;
+    document.getElementById('gTitle').textContent=s.title;
+    document.getElementById('gDesc').textContent=s.desc;
+    var list=document.getElementById('gList'); list.innerHTML='';
+    s.items.forEach(function(it,k){
+      var f=document.createElement('figure'); f.className='g-item reveal'+(k===0?' g-hero':'');
+      f.style.transitionDelay=(Math.min(k,3)*0.08)+'s';
+      var im=document.createElement('img'); im.src=it.img; im.alt=it.cap; im.width=it.w; im.height=it.h; im.loading=k<2?'eager':'lazy';
+      var cap=document.createElement('figcaption'); cap.textContent=it.cap;
+      if(it.ref){var t=document.createElement('span');t.className='g-ref';t.textContent='Reference';cap.appendChild(t)}
+      f.appendChild(im); f.appendChild(cap);
+      f.onclick=function(){document.getElementById('lbImg').src=it.img;document.getElementById('lbCap').textContent=it.cap;document.getElementById('lb').classList.add('on')};
+      list.appendChild(f);
+    });
+    var nx=document.getElementById('gNext'); nx.href='#'+n.slug; document.getElementById('gNextName').textContent=n.title;
+    document.querySelector('.frame').scrollTop=0;
+    var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{root:document.querySelector('.frame'),threshold:0.1});
+    list.querySelectorAll('.reveal').forEach(function(e){io.observe(e)});
+  }
+  window.addEventListener('hashchange',render); render();
+  function close(){document.getElementById('lb').classList.remove('on')}
+  document.getElementById('lbClose').onclick=close;
+  document.getElementById('lb').onclick=function(e){if(e.target.id==='lb')close()};
+})();
+</script>
+<script src="carousel.js" defer></script>
+</body>
+</html>
